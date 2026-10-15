@@ -1,0 +1,29 @@
+﻿@using UnityPortfolio.Models
+
+<section id="skills" class="container">
+    <div class="section-header">
+        <h2 class="section-title">Technical Expertise</h2>
+        <p class="text-secondary">Core proficiencies, toolsets, and architecture specializations.</p>
+    </div>
+
+    <div class="skills-grid">
+        @foreach (var group in Categories)
+        {
+            <div class="skill-category-card">
+                <h3 class="skill-cat-title">@group.CategoryName</h3>
+                @foreach (var skill in group.Skills)
+                {
+                    <div class="skill-item">
+                        <span>@skill.Name</span>
+                        <span class="skill-level">@skill.ProficiencyLevel</span>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</section>
+
+@code {
+    [Parameter, EditorRequired]
+    public IReadOnlyList<SkillCategory> Categories { get; set; } = [];
+}

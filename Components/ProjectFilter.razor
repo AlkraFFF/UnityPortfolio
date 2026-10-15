@@ -1,0 +1,29 @@
+﻿<div class="filter-bar">
+    @foreach (var category in Categories)
+    {
+        <button class="filter-btn @(SelectedCategory.Equals(category, StringComparison.OrdinalIgnoreCase) ? "active" : "")"
+                @onclick="() => SelectCategory(category)">
+            @category
+        </button>
+    }
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public IReadOnlyList<string> Categories { get; set; } = [];
+
+    [Parameter]
+    public string SelectedCategory { get; set; } = "All";
+
+    [Parameter]
+    public EventCallback<string> OnCategoryChanged { get; set; }
+
+    private async Task SelectCategory(string category)
+    {
+        SelectedCategory = category;
+        if (OnCategoryChanged.HasDelegate)
+        {
+            await OnCategoryChanged.InvokeAsync(category);
+        }
+    }
+}

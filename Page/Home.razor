@@ -1,0 +1,121 @@
+﻿@page "/"
+@using UnityPortfolio.Models
+@using UnityPortfolio.Services
+@inject IPortfolioService PortfolioService
+@inject IJSRuntime JS
+
+<HeroSection />
+
+<section id="projects" class="container">
+    <div class="section-header">
+        <h2 class="section-title">Showcase Projects</h2>
+        <p class="text-secondary">Explore shipping games, experimental shaders, and open-source engine utilities.</p>
+    </div>
+
+    <!-- Category Filter Controls -->
+    <div class="filter-bar">
+        <button class="filter-btn @(selectedCategory == "All" ? "active" : "")" 
+                @onclick='() => FilterCategory("All")'>All</button>
+        <button class="filter-btn @(selectedCategory == "3D Game" ? "active" : "")" 
+                @onclick='() => FilterCategory("3D Game")'>3D Games</button>
+        <button class="filter-btn @(selectedCategory == "Tool" ? "active" : "")" 
+                @onclick='() => FilterCategory("Tool")'>Tools & Algorithms</button>
+        <button class="filter-btn @(selectedCategory == "Shaders" ? "active" : "")" 
+                @onclick='() => FilterCategory("Shaders")'>HLSL & Shaders</button>
+    </div>
+
+    @if (filteredProjects is null)
+    {
+        <p style="color: var(--text-muted);">Loading system assets...</p>
+    }
+    else
+    {
+        <div class="projects-grid">
+            @foreach (var project in filteredProjects)
+            {
+                <ProjectCard Project="@project" />
+            }
+        </div>
+    }
+</section>
+
+@if (skillCategories is not null)
+{
+    <SkillsSection Categories="@skillCategories" />
+}
+
+<section id="contact" class="container contact-section">
+    <div class="contact-box glass-panel">
+        <h2 class="section-title" style="margin-bottom: 1rem;">Let's Build Something Great</h2>
+        <p class="text-secondary" style="max-width: 500px; margin: 0 auto 2rem auto;">
+            Looking for a Unity Developer for your next project? My inbox is always open.
+        </p>
+
+        <div style="display: flex; gap: 1rem; justify-content: center; align-items: center; flex-wrap: wrap;">
+            <!-- Email -->
+            <a href="mailto:aliaksei.chubin@gmail.com" class="btn btn-primary">
+                aliaksei.chubin@gmail.com
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/AlkraFFF" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                GitHub Profile
+            </a>
+
+            <!-- Прямой переход в Telegram -->
+            <a href="https://t.me/Alkraf2000" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="border-color: #229ED9; color: #229ED9;">
+                Open Telegram
+            </a>
+
+            <!-- Кнопка копирования ника в буфер обмена -->
+            <button class="btn btn-outline" @onclick="CopyTelegram" title="Click to copy Telegram tag">
+                @if (isCopied)
+                {
+                    <span style="color: var(--accent-emerald);">✔ Copied!</span>
+                }
+                else
+                {
+                    <span>📋 @@Alkraf2000</span>
+                }
+            </button>
+        </div>
+    </div>
+</section>
+
+@code {
+    private IReadOnlyList<Project>? allProjects;
+    private IEnumerable<Project>? filteredProjects;
+    private IReadOnlyList<SkillCategory>? skillCategories;
+    private bool isCopied = false;
+    private string selectedCategory = "All";
+
+    private async Task CopyTelegram()
+    {
+        // Копирует ник в буфер обмена через стандартный Browser API
+        await JS.InvokeVoidAsync("navigator.clipboard.writeText", "@Alkraf2000");
+        
+        isCopied = true;
+        StateHasChanged();
+
+        // Через 2 секунды надпись возвращается обратно к нику
+        await Task.Delay(2000);
+        isCopied = false;
+        StateHasChanged();
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        allProjects = await PortfolioService.GetProjectsAsync();
+        skillCategories = await PortfolioService.GetSkillCategoriesAsync();
+        FilterCategory("All");
+    }
+
+    private void FilterCategory(string category)
+    {
+        selectedCategory = category;
+        if (allProjects is null) return;
+
+        filteredProjects = selectedCategory == "All" 
+            ? allProjects 
+            : allProjects.Where(p => p.Category.Equals(selectedCategory, StringComparison.OrdinalIgnoreCase));
+    }
+}

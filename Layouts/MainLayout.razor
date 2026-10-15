@@ -1,0 +1,26 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page">
+    <header class="nav-header glass-panel">
+        <div class="container nav-container">
+            <a href="" class="brand">&lt;UNITY_DEV /&gt;</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        @Body
+    </main>
+
+    <footer style="border-top: 1px solid var(--border-subtle); padding: 2rem 0; text-align: center; color: var(--text-muted); font-size: 0.85rem;">
+        <div class="container">
+            <p>&copy; @DateTime.UtcNow.Year | Built with Blazor WebAssembly (.NET 8) & Hosted via GitHub Pages</p>
+        </div>
+    </footer>
+</div>

@@ -1,0 +1,59 @@
+﻿<section id="contact" class="container contact-section">
+    <div class="contact-box glass-panel">
+        <div class="hero-badge" style="margin-bottom: 1rem;">
+            <span class="status-dot"></span> Get In Touch
+        </div>
+
+        <h2 class="section-title" style="margin-bottom: 1rem;">Let's Build Something Great</h2>
+        <p class="text-secondary" style="max-width: 520px; margin: 0 auto 2rem auto;">
+            Ищете технического гейм-дизайнера, C# архитектора или разработчика шейдеров для вашей студии или инди-проекта? Напишите мне:
+        </p>
+
+        <!-- Основная кнопка связи -->
+        <div style="margin-bottom: 2rem;">
+            <a href="mailto:@Email" class="btn btn-primary" style="font-size: 1.05rem; padding: 0.85rem 2rem;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 6px;">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                @Email
+            </a>
+        </div>
+
+        <!-- Соцсети разработчика -->
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+            @if (!string.IsNullOrEmpty(GitHubUrl))
+            {
+                <a href="@GitHubUrl" target="_blank" rel="noopener noreferrer" class="link-btn">
+                    GitHub
+                </a>
+            }
+            @if (!string.IsNullOrEmpty(ItchIoUrl))
+            {
+                <a href="@ItchIoUrl" target="_blank" rel="noopener noreferrer" class="link-btn">
+                    Itch.io
+                </a>
+            }
+            @if (!string.IsNullOrEmpty(LinkedInUrl))
+            {
+                <a href="@LinkedInUrl" target="_blank" rel="noopener noreferrer" class="link-btn">
+                    LinkedIn
+                </a>
+            }
+            @if (!string.IsNullOrEmpty(TelegramUrl))
+            {
+                <a href="@TelegramUrl" target="_blank" rel="noopener noreferrer" class="link-btn">
+                    Telegram
+                </a>
+            }
+        </div>
+    </div>
+</section>
+
+@code {
+    [Parameter] public string Email { get; set; } = "aliaksei.chubin@gmail.com";
+    [Parameter] public string? GitHubUrl { get; set; } = "https://github.com/AlkraFFF";
+    [Parameter] public string? ItchIoUrl { get; set; } = "https://your-profile.itch.io";
+    [Parameter] public string? LinkedInUrl { get; set; }
+    [Parameter] public string? TelegramUrl { get; set; }
+}

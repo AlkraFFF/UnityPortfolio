@@ -1,0 +1,51 @@
+﻿@using UnityPortfolio.Models
+
+<div class="card">
+    <div class="card-img-wrapper">
+        <img class="card-img" src="@Project.ThumbnailUrl" alt="@Project.Title" loading="lazy" />
+    </div>
+    <div class="card-content">
+        <h3 class="card-title">@Project.Title</h3>
+        <p class="card-subtitle">@Project.Subtitle</p>
+        <p class="card-description">@Project.Description</p>
+        
+        <div class="tag-list">
+            @foreach (var tag in Project.Tags)
+            {
+                <span class="tag">@tag</span>
+            }
+        </div>
+        
+        <div class="card-links">
+            @if (!string.IsNullOrEmpty(Project.GitHubUrl))
+            {
+                <a href="@Project.GitHubUrl" target="_blank" rel="noopener noreferrer" class="link-btn">
+                    GitHub
+                </a>
+            }
+            @if (!string.IsNullOrEmpty(Project.SteamUrl))
+            {
+                <a href="@Project.SteamUrl" target="_blank" rel="noopener noreferrer" class="link-btn">
+                    Steam
+                </a>
+            }
+            @if (!string.IsNullOrEmpty(Project.ItchIoUrl))
+            {
+                <a href="@Project.ItchIoUrl" target="_blank" rel="noopener noreferrer" class="link-btn">
+                    Itch.io
+                </a>
+            }
+            @if (!string.IsNullOrEmpty(Project.PlayGoogleUrl))
+            {
+                <a href="@Project.PlayGoogleUrl" target="_blank" rel="noopener noreferrer" class="link-btn">
+                    Google Play
+                </a>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public Project Project { get; set; } = default!;
+}
