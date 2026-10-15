@@ -1,0 +1,81 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = UnityPortfolio
+build_property.RootNamespace = UnityPortfolio
+build_property.ProjectDir = D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/Unity/Github/Website/UnityPortfolio/UnityPortfolio/Components/ContactSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250YWN0U2VjdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Unity/Github/Website/UnityPortfolio/UnityPortfolio/Components/HeroSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIZXJvU2VjdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Unity/Github/Website/UnityPortfolio/UnityPortfolio/Components/ProjectCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcm9qZWN0Q2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Unity/Github/Website/UnityPortfolio/UnityPortfolio/Components/ProjectFilter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcm9qZWN0RmlsdGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Unity/Github/Website/UnityPortfolio/UnityPortfolio/Components/SkillsSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTa2lsbHNTZWN0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Unity/Github/Website/UnityPortfolio/UnityPortfolio/Page/App.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZVxBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Unity/Github/Website/UnityPortfolio/UnityPortfolio/Page/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZVxDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Unity/Github/Website/UnityPortfolio/UnityPortfolio/Page/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZVxFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Unity/Github/Website/UnityPortfolio/UnityPortfolio/Page/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZVxIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Unity/Github/Website/UnityPortfolio/UnityPortfolio/Page/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZVxSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Unity/Github/Website/UnityPortfolio/UnityPortfolio/Page/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZVxXZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Unity/Github/Website/UnityPortfolio/UnityPortfolio/Page/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZVxfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Unity/Github/Website/UnityPortfolio/UnityPortfolio/Layouts/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0c1xNYWluTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-2xxcchaz2m
+
+[D:/Unity/Github/Website/UnityPortfolio/UnityPortfolio/Layouts/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0c1xOYXZNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-k7xqx3fb1w
