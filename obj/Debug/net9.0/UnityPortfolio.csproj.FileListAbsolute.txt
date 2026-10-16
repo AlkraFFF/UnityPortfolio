@@ -1483,11 +1483,7 @@ D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\bin\Debug\n
 D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\bin\Debug\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat.gz
 D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\bin\Debug\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\bin\Debug\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
-D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\bin\Debug\net9.0\wwwroot\_framework\UnityPortfolio.l5ooiupu1e.wasm
-D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\bin\Debug\net9.0\wwwroot\_framework\UnityPortfolio.s204g3w58d.pdb
 D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\bin\Debug\net9.0\wwwroot\_framework\blazor.boot.json
-D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\bin\Debug\net9.0\wwwroot\_framework\UnityPortfolio.l5ooiupu1e.wasm.gz
-D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\bin\Debug\net9.0\wwwroot\_framework\UnityPortfolio.s204g3w58d.pdb.gz
 D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\bin\Debug\net9.0\wwwroot\_framework\blazor.boot.json.gz
 D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\bin\Debug\net9.0\appsettings.Development.json
 D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\bin\Debug\net9.0\appsettings.json
@@ -2153,9 +2149,6 @@ D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\obj\Debug\n
 D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\obj\Debug\net9.0\compressed\rj603ko4oe-tjcz0u77k5.gz
 D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\obj\Debug\net9.0\compressed\7yy84848ql-tptq2av103.gz
 D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\obj\Debug\net9.0\compressed\fsp4ldvhoe-lfu7j35m59.gz
-D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\obj\Debug\net9.0\compressed\wrembcl5au-l5ooiupu1e.gz
-D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\obj\Debug\net9.0\compressed\nkc39pfkxq-s204g3w58d.gz
-D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\obj\Debug\net9.0\compressed\31zyo62yqw-kcknapi2iv.gz
 D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\obj\Debug\net9.0\staticwebassets.build.json
 D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\obj\Debug\net9.0\staticwebassets.build.json.cache
 D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\obj\Debug\net9.0\staticwebassets.development.json
@@ -2165,3 +2158,10 @@ D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\obj\Debug\n
 D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\obj\Debug\net9.0\refint\UnityPortfolio.dll
 D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\obj\Debug\net9.0\UnityPortfolio.pdb
 D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\obj\Debug\net9.0\ref\UnityPortfolio.dll
+D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\bin\Debug\net9.0\wwwroot\_framework\UnityPortfolio.0ri0fo294a.wasm
+D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\bin\Debug\net9.0\wwwroot\_framework\UnityPortfolio.siasvlai91.pdb
+D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\bin\Debug\net9.0\wwwroot\_framework\UnityPortfolio.0ri0fo294a.wasm.gz
+D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\bin\Debug\net9.0\wwwroot\_framework\UnityPortfolio.siasvlai91.pdb.gz
+D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\obj\Debug\net9.0\compressed\wrembcl5au-0ri0fo294a.gz
+D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\obj\Debug\net9.0\compressed\nkc39pfkxq-siasvlai91.gz
+D:\Unity\Github\Website\UnityPortfolio\UnityPortfolio\UnityPortfolio\obj\Debug\net9.0\compressed\31zyo62yqw-itd1y9ianr.gz
