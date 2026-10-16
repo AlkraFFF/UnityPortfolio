@@ -10,8 +10,8 @@ public class PortfolioService : IPortfolioService
     private static readonly List<Project> Projects =
     [
         new(
-            Id: "1",
-            Title: "ARC Robot Survival",
+            Id: "ARC Robot Survival",
+            Title: "1",
             Subtitle: "Fast-Paced Roguelike Action in Unity 6000",
             Description: "As part of a team, I developed a dynamic action game, implementing procedural generation and a scalable wave system that keeps players engaged through unpredictable gameplay. I designed a flexible upgrade system for weapons and abilities, which encourages player retention and the creation of new character builds. Thanks to extensive optimization of both code and assets in Unity, the game maintains a consistently high frame rate, even with hundreds of active objects on screen.",
             ThumbnailUrl: "images/projects/project1.webp",
