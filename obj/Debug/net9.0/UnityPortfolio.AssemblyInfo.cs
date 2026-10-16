@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UnityPortfolio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d521285d487f29f8cd567d7a6270126a6b33baa3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cedb1ed0cf551cddd0ac63c46ef04e9d2bc7a77a")]
 [assembly: System.Reflection.AssemblyProductAttribute("UnityPortfolio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UnityPortfolio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
