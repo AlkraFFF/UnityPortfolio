@@ -1763,11 +1763,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Unity\\Github\\Website\\UnityPortfolio\\UnityPortfolio\\UnityPortfolio.csproj",
+      "projectUniqueName": "D:\\Unity\\Github\\Website\\UnityPortfolio\\UnityPortfolio\\UnityPortfolio\\UnityPortfolio.csproj",
       "projectName": "UnityPortfolio",
-      "projectPath": "D:\\Unity\\Github\\Website\\UnityPortfolio\\UnityPortfolio\\UnityPortfolio.csproj",
+      "projectPath": "D:\\Unity\\Github\\Website\\UnityPortfolio\\UnityPortfolio\\UnityPortfolio\\UnityPortfolio.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Unity\\Github\\Website\\UnityPortfolio\\UnityPortfolio\\obj\\",
+      "outputPath": "D:\\Unity\\Github\\Website\\UnityPortfolio\\UnityPortfolio\\UnityPortfolio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

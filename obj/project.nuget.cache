@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "squFxxX5Pvg=",
+  "dgSpecHash": "NanFe5AOaHc=",
   "success": true,
-  "projectFilePath": "D:\\Unity\\Github\\Website\\UnityPortfolio\\UnityPortfolio\\UnityPortfolio.csproj",
+  "projectFilePath": "D:\\Unity\\Github\\Website\\UnityPortfolio\\UnityPortfolio\\UnityPortfolio\\UnityPortfolio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.0\\microsoft.aspnetcore.authorization.9.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.0\\microsoft.aspnetcore.components.9.0.0.nupkg.sha512",
